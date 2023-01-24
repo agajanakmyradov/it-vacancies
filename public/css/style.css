@@ -1,0 +1,36 @@
+body {
+	background: 	#f8f8ff;
+}
+
+.sidebar {
+	background: white;
+	width: 350px;
+	display: none;
+}
+
+.vacancy {
+	background: white;
+}
+
+@media (min-width: 800px) {
+	.sidebar {
+		display: block;
+	}
+
+	#filter {
+		display: none;
+	}
+}
+
+@media (max-width: 800px) {
+	.sidebar {
+		display: none;
+	}
+
+	#filter {
+		display: block;
+	} 
+
+	
+}
+
